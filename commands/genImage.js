@@ -1,5 +1,6 @@
 const { SlashCommandBuilder } = require("discord.js");
 const axios = require('axios');
+const { tokenAPI } = require('../config.json');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -17,7 +18,7 @@ module.exports = {
             await axios({
                 method: 'post',
                 url: 'https://api.openai.com/v1/images/generations',
-                headers: {'Authorization': 'Bearer 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'},
+                headers: {'Authorization': `Bearer ${tokenAPI}`},
                 data: {
                   prompt: prompt
                 }

@@ -1,5 +1,6 @@
 {
-    "token": "MTAzOTE4MzMzMzExNDAwMzU0OQ.GPpUlO.xTmcGclU-hb1ltiUoWNSOaJaX8-uYSSbWbe4Gk",
-    "clientId": "1039183333114003549",
-	"guildId": "1016264629103632454"
+    "token": "BOT-TOKEN",
+    "clientId": "CLIENT-ID",
+	"guildId": "SERVER-ID",
+    "tokenAPI": "TOKEN-API"
 }
